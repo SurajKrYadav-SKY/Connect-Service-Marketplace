@@ -1,0 +1,31 @@
+.catCard{
+  width: 250px;
+  height: 325px;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  margin: 10px 0px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .desc{
+    font-weight: 300;
+    font-size: 24px;
+    position: absolute;
+    left: 15px;
+  }
+
+  .title{
+    font-weight: 600;
+    font-size: 30px;
+    position: absolute;
+    left: 15px;
+    top: 40px;
+  }
+}

@@ -1,0 +1,51 @@
+.home {
+  .bt {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #45091b;
+    color: white;
+
+    .container {
+      width: 1400px;
+      display: flex;
+      align-items: center;
+
+      .left {
+        display: flex;
+        flex: 3;
+        flex-direction: column;
+        gap: 10px;
+
+        .button {
+          background-color: white;
+          color: #446ee7;
+          padding: 10px 20px;
+          border-radius: 5px;
+          font-size: 15px;
+          cursor: pointer;
+          margin-top: 20px;
+          border: none;
+          width: 20%;
+        }
+
+        h1 {
+          font-size: 50px;
+
+          span {
+            font-style: italic;
+            font-weight: 300;
+          }
+        }
+      }
+
+      .right {
+        height: 100%;
+        img {
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
